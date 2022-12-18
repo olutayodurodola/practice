@@ -35,12 +35,29 @@
 		</ul>
 	</div>
 	<div>
-		<form>
+		<form method="GET" action="">
 			First Name: <input type="text" name="firstname"><br>
 			Last Name: <input type="text" name="lastname"><br>
-			Gender:
-			<input type="radio" name="gender">Male<br>
-			<input type="radio" name="gender">Female<br>
+			Email Address: <input type="email" name="email"><br>
+			Date of Birth: <input type="date" name="dob"><br>
+			Gender: <br>
+			<input type="radio" name="gender" value="Male">Male<br>
+			<input type="radio" name="gender" value="Female">Female<br>
+			<input type="radio" name="gender" value="Other">Other<br>
+			Cars <br>
+			<input type="checkbox" name="volvo">Volvo<br>
+			<input type="checkbox" name="toyota">Toyota<br>
+			<input type="checkbox" name="mercedes">Mercedes Benz<br>
+
+			Pets: 
+			<select name="pets">
+				<option value="cats">Cats</option>
+				<option value="dogs">Dogs</option>
+				<option value="birds">Birds</option>
+			</select><br><br>
+
+<input type="Submit" name="submitnow" value="Submit Now">
+<input type="reset" name="resetnow">
 		</form>
 	</div>
 
